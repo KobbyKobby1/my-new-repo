@@ -18,7 +18,6 @@ def calculate_ear(eye_points, facial_landmarks):
     ear = (P2_P6 + P3_P5) / (2.0 * P1_P4)
     return ear
 
-
 # Load the pre-trained facial landmark predictor
 predictor_path = 'shape_predictor_68_face_landmarks.dat'
 detector = dlib.get_frontal_face_detector()
